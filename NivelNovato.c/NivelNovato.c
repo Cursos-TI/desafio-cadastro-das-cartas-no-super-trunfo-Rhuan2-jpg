@@ -1,24 +1,32 @@
 #include <stdio.h>
   int main(){
     char estado;
-    char CodigoDaCarta[4], NomeDaCidade[20];
+    char CodigoDaCarta[4], NomeDaCidade[12];
     int Populacao;
     int PontosTuristicos;
-    float Area, PIB;
+    float area[9], PIB[9];
     
       printf("Insira os dados das duas cartas, a letra do estado deve ser de A a H, a Área deve ser em km², o código da carta deve ser de 01 a 04 e deve estar depois da letra do estado. A = Acre, B = Bahia, C = Ceará, D = Espírito Santo, E = Goiás, F = Maranhão, G = Alagoas, H = Amazonas, Depois escolha uma cidade, imforme o número de habitantes da cidade, imforme a área da cidade, imforme o PIB, imforme o Número de pontos turísticos.\n");
       printf("Escolha seu estado: ");
       scanf("%c", &estado);
       
       printf("Escolha o Código da carta: ");
-      scanf("%f", &CodigoDaCarta);
+      scanf("%i", &CodigoDaCarta);
 
       printf("Imforme o nome da cidade: ");
       scanf("%s", &NomeDaCidade);
 
       printf("Imforme o número de Habitantes da cidade: ");
-      scanf("%f", &Populacao);
+      scanf("%d", &Populacao);
 
-      printf("Imforme a Área da cidade: ");
-      scanf("%e", &Area);
+      printf("Imforme a Área da cidade: \n");
+      scanf("%c", &area);
+
+      printf("Imforme o PIB: ");
+      scanf("%s", &PIB);
+
+    
+    
+    
+    
     }
