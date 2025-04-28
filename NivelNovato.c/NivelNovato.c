@@ -19,13 +19,13 @@
       printf("Imforme o número de Habitantes da cidade: ");
       scanf("%d", &Populacao);
 
-      printf("Imforme a Área da cidade: \n");
+      printf("Imforme a Área da cidade: ");
       scanf("%s", area);
 
       printf("Imforme o PIB: ");
       scanf("%s", pib);
 
-      
+      printf("as imformações da sua carta são estas começando pelo estado: %c", &estado);
     
     
     
