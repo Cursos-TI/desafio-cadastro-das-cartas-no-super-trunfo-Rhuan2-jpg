@@ -37,7 +37,7 @@
       scanf("%d", &PontosTuristicos);
       while ((temp_char = getchar()) != '\n' && temp_char != EOF);
         //Informações da primeira carta juntas
-       printf("as informações da sua carta são estas respectivamente: %c, %s, %s, %d, %.2f km², %.2f, %d\n", estado, CodigoDaCarta, NomeDaCidade, Populacao, area, pib, PontosTuristicos);
+       printf("as informações da sua carta são estas respectivamente: Estado %c, Código %s, Cidade %s, População %d, Área %.2f km², PIB %.2f, Pontos Turísticos %d\n", estado, CodigoDaCarta, NomeDaCidade, Populacao, area, pib, PontosTuristicos);
         //Dados e váriaveis para segunda carta
     char Estado;
     char codigoDaCarta[4],nomeDaCidade[25]; 
@@ -73,7 +73,7 @@
       scanf("%d", &pontosTuristicos);
       while ((temp_char = getchar()) != '\n' && temp_char != EOF);
         //Informações da segunda carta juntas
-       printf("as informações da sua carta são estas respectivamente: %c, %s, %s, %d, %.2f km², %.2f, %d\n", Estado, codigoDaCarta, nomeDaCidade, populacao, Area, Pib, pontosTuristicos);
+       printf("as informações da sua carta são estas respectivamente: Estado %c, Código %s, Cidade %s, População %d, Área %.2f km², PIB %.2f, Pontos Turísticos %d\n", Estado, codigoDaCarta, nomeDaCidade, populacao, Area, Pib, pontosTuristicos);
     
     
     }
